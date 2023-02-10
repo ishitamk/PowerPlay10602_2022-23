@@ -494,7 +494,6 @@ public class RightAuto extends LinearOpMode
         newmotorBRTarget = robot.motorBR.getCurrentPosition() - (int)(inches * robot.COUNTS_PER_INCH);
         robot.motorFL.setTargetPosition(newmotorFLTarget);
         robot.motorFR.setTargetPosition(newmotorFRTarget);
-        robot.motorBL.setTargetPosition(newmotorBLTarget);
         robot.motorBR.setTargetPosition(newmotorBRTarget);
 
         // Turn On RUN_TO_POSITION

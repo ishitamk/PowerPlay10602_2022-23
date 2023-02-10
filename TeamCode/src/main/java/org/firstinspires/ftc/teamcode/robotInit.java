@@ -61,7 +61,7 @@ public class robotInit {
         motorBR = hardwareMap.get(DcMotor.class, "motor_br");
         armLiftLeft = hardwareMap.get(DcMotor.class, "armLiftLeft");
         armLiftRight = hardwareMap.get(DcMotor.class, "armLiftRight");
-        //waiter = hardwareMap.get(DcMotor.class, "waiter");
+        waiter = hardwareMap.get(DcMotor.class, "waiter");
 
 //        spinner = hardwareMap.get(DcMotor.class, "spinner");
 

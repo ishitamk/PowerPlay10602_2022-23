@@ -49,7 +49,7 @@ public class TeleOpmode extends LinearOpMode {
             double armUp = gamepad1.right_trigger; // brings linear slides up
 
             //SPINNER
-            double turntable = (-gamepad1.right_stick_x); // turning on the turntable
+            double turntable = .35*(-gamepad1.right_stick_x); // turning on the turntable
             robot.waiter.setPower(turntable);
 
             //CLAW
